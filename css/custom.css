@@ -36,3 +36,22 @@
 .modal-content {
     cursor: pointer;
 }
+
+.note-paper {
+    background-color: #f7e6d1;
+    padding: 20px;
+    border: 1px solid #e0d0b6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "Lora", "Times New Roman", serif;
+}
+
+h2.about-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p.about-description {
+    font-size: 18px;
+    line-height: 1.6;
+}
