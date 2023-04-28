@@ -1,0 +1,34 @@
+
+.navbar {
+    background-color: #112;
+}
+
+.navbar-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.body-wrapper {
+    background-color: #112;
+}
+
+.post-heading h1 {
+    margin-bottom: 2rem;
+}
+
+.card-clickable {
+    cursor: pointer;
+}
