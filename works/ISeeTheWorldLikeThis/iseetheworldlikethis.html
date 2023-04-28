@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <title>I see the world like this</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-        <link rel="stylesheet" href="iseetheworldlikethis.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Mikenerian's works, media art, p5.js">
+        <meta name="author" content="Mikenerian">
+        <title>I see the world like this</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/css/styles.css" rel="stylesheet" />
+        <link href="/css/custom.css" rel="stylesheet" />
+        <link href="iseetheworldlikethis.css" rel="stylesheet" />
     </head>
     <body>
-        <header>
-            <h1>I see the world like this</h1>
-        </header>
+        <!-- Navigation-->
+        <div id="navigation"></div>
+
         <div id="draw-field">
             <div id="streetview">
                 <iframe id="streetview-iframe" src="https://www.google.com/maps/embed?pb=!4v1680486038209!6m8!1m7!1sAUWl_n3lYb0pNBT1z97DgA!2m2!1d35.68196720636504!2d139.765240854434!3f108.74994115313089!4f1.6266267550102782!5f0.7820865974627469" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <script src="noise.js"></script>
         </div>
+
+        <!-- Read jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+        <script>
+            $(function() {
+                $('#navigation').load('/pages/navigation.html');
+            });
+        </script>
     </body>
 </html>
